@@ -1,0 +1,15 @@
+﻿  Validating sources
+  Copying sources remotely to '95.179.155.70'
+  Starting remote build
+  Compiling sources:
+  CBitReader.cpp
+  LocalListener.cpp
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error : rapidjson/rapidjson.h: No such file or directory
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error :  #include "rapidjson/rapidjson.h"
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error :                                  ^
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error : compilation terminated.
+  main.cpp
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error : rapidjson/rapidjson.h: No such file or directory
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error :  #include "rapidjson/rapidjson.h"
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error :                                  ^
+C:\Users\osman\source\repos\PubGStreamer\PubGStreamer\LocalListener.h(11,33): error : compilation terminated.

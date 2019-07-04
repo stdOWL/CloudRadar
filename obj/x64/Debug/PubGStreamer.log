@@ -1,0 +1,630 @@
+﻿  Validating sources
+  Copying sources remotely to '95.179.155.70'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  LocalListener.cpp
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(21): warning : "LOWORD" redefined
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(21): warning :  #define LOWORD(_dw)     ((WORD)(((DWORD_PTR)(_dw)) & 0xffff))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(21): warning :  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(15): message : this is the location of the previous definition
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(15): message :  #define LOWORD(l)           ((WORD)(((DWORD_PTR)(l)) & 0xffff))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(15): message :  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(163,15): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(163,15): warning :    return 1 << Cnt;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(163,15): warning :                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(177,12): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(177,12): warning :     data[i] = (Buffer[(nPos >> 3)] >> (nPos % 8)) | (Buffer[(nPos >> 3) + 1] << (8 - nPos % 8));
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(177,12): warning :             ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(199,7): warning : unused variable ‘nReadBytes’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(199,7): warning :    int nReadBytes = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(199,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(254,17): warning : unused variable ‘LocalNum’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(254,17): warning :     const UINT32 LocalNum = nNum;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(254,17): warning :                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(303,21): warning : conversion to ‘UINT8 {aka unsigned char}’ from ‘UINT32 {aka unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(303,21): warning :      Dest[DestIndex] = ((Dest[DestIndex] & ~MultiMask) | ((Accu << ShiftDest) & MultiMask));
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(303,21): warning :                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(401,38): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(401,38): warning :     for (int Mask = 1; (Value + Mask) < ValueMax && Mask; Mask *= 2, LocalPos++)
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(401,38): warning :                                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(456,14): warning : conversion to ‘UINT8 {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(456,14): warning :      NextByte = NextByte >> 1;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(456,14): warning :               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(862,4): warning : return-statement with no value, in function returning ‘bool’ [-fpermissive]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(862,4): warning :     return;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(862,4): warning :     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(894,19): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(894,19): warning :       if (nNetGUID == user->m_nTeamNetGUID[i])
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(894,19): warning :                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(943,32): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(943,32): warning :     if (abs(actor.fZPos - 150000) < 0.1)
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(943,32): warning :                                 ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1025,4): warning : return-statement with no value, in function returning ‘bool’ [-fpermissive]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1025,4): warning :     return;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1025,4): warning :     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1047,143): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1047,143): warning :       VehicleSeatOperation(nChannelNo, user->m_channel[nChannelNo].pActor->nAttachParent, 0xFFFFFFFF, user->m_channel[nChannelNo].pActor->nType);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1047,143): warning :                                                                                                                                                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1133,9): warning : unused variable ‘fDis’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1133,9): warning :    float fDis = 0, fDisError = 500;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1133,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1133,19): warning : unused variable ‘fDisError’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1133,19): warning :    float fDis = 0, fDisError = 500;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1133,19): warning :                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1142,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1142,7): warning :    int i;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1142,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1170,8): warning : unused variable ‘szTemp’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1170,8): warning :    char szTemp[256] = { 0 };
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1170,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1171,7): warning : unused variable ‘nActorMatchNo’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1171,7): warning :    int nActorMatchNo;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1171,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1173,7): warning : unused variable ‘nTeamIndex’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1173,7): warning :    int nTeamIndex = -1;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1173,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1290,4): warning : return-statement with no value, in function returning ‘bool’ [-fpermissive]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1290,4): warning :     return;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1290,4): warning :     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1311,4): warning : return-statement with no value, in function returning ‘bool’ [-fpermissive]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1311,4): warning :     return;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1311,4): warning :     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1696,7): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1696,7): warning :     lo = (InStr[i] >> nShiftCnt);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1696,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1697,7): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1697,7): warning :     hi = (InStr[i + 1] << nRevShift);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1697,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1700,13): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1700,13): warning :    OutStr[i] = (InStr[i] >> nShiftCnt);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1700,13): warning :              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1801,17): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1801,17): warning :    for (i = 8; i < Bunch.nNum - 8 * 32; i++)
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1801,17): warning :                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1784,8): warning : unused variable ‘bReadBlockRet’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1784,8): warning :    bool bReadBlockRet = false, bOutHasRepLayout = false;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1784,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1784,31): warning : unused variable ‘bOutHasRepLayout’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1784,31): warning :    bool bReadBlockRet = false, bOutHasRepLayout = false;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1784,31): warning :                                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1785,7): warning : unused variable ‘nReadBlockRet’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1785,7): warning :    int nReadBlockRet = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1785,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1787,10): warning : unused variable ‘NumPayloadBits’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1787,10): warning :    UINT32 NumPayloadBits = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1787,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1788,8): warning : unused variable ‘szBuf’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1788,8): warning :    char szBuf[1024];
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1788,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1789,7): warning : unused variable ‘nBufLen’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1789,7): warning :    int nBufLen;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1789,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1794,7): warning : unused variable ‘nStrRet’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1794,7): warning :    int nStrRet = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1794,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1876,18): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1876,18): warning :     for (i = 0; i < nObjCnt; i++)
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1876,18): warning :                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1858,7): warning : unused variable ‘nBufLen’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1858,7): warning :    int nBufLen = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1858,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1968,17): warning : unused variable ‘OuterGUID’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1968,17): warning :     unsigned int OuterGUID = InternalLoadObject(Ar, InternalLoadObjectRecursionCount + 1);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1968,17): warning :                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1971,8): warning : variable ‘nPathNameLen’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1971,8): warning :     int nPathNameLen = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(1971,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2262,8): warning : unused variable ‘bSimulatedPhysicSleep’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2262,8): warning :    BOOL bSimulatedPhysicSleep = Ar.ReadBit();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2262,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2274,20): warning : converting to non-pointer type ‘UINT32 {aka unsigned int}’ from NULL [-Wconversion-null]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2274,20): warning :    UINT32 NetGUID = NULL;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2274,20): warning :                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2275,25): warning : converting to non-pointer type ‘UINT32 {aka unsigned int}’ from NULL [-Wconversion-null]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2275,25): warning :    UINT32 ClassNetGUID = NULL;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2275,25): warning :                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2459,11): warning : statement has no effect [-Wunused-value]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2459,11): warning :      Bunch.nPos;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2459,11): warning :            ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2493,67): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2493,67): warning :         Radar->user->m_channel[m_nChannelNo].pAirDropPlane->fSpeed = sqrt(fvVel.X * fvVel.X + fvVel.Y * fvVel.Y);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2493,67): warning :                                                                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2494,66): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2494,66): warning :         Radar->user->m_channel[m_nChannelNo].pAirDropPlane->fDirX = cos(frRot.Yaw * 3.141592 / 180);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2494,66): warning :                                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2495,66): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2495,66): warning :         Radar->user->m_channel[m_nChannelNo].pAirDropPlane->fDirY = sin(frRot.Yaw * 3.141592 / 180);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2495,66): warning :                                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2497,73): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2497,73): warning :         Radar->user->m_channel[m_nChannelNo].pAirDropPlane->dwGetTickCnt = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2497,73): warning :                                                                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2512,60): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2512,60): warning :          if ((Radar->user->m_channel[m_nChannelNo].nNetGUID == Radar->user->m_nTeamNetGUID[j]) && (Radar->user->m_nTeamNetGUID[j] != 0x77777777))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2512,60): warning :                                                             ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2452,10): warning : variable ‘nPosCntTemp’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2452,10): warning :    UINT32 nPosCntTemp = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2452,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2453,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2453,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2453,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2610,16): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2610,16): warning :      actor.fYaw = (float)((nView >> 16) * 360) / 65535.0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2610,16): warning :                 ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2568,10): warning : variable ‘fHealth’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2568,10): warning :     float fHealth;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2568,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2709,126): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2709,126): warning :        if ((bNoTime == false) && (fTime > pRadar->user->m_CircleInfo.fTime) && (abs(fBlueR - pRadar->user->m_CircleInfo.fBlueR) < 0.01))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2709,126): warning :                                                                                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2711,50): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2711,50): warning :         pRadar->user->m_CircleInfo.dwTickStartCnt = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2711,50): warning :                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2714,63): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2714,63): warning :        else if ((abs(fBlueR - pRadar->user->m_CircleInfo.fBlueR) > 0.01))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2714,63): warning :                                                                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2625,17): warning : variable ‘fScreenSizeFact’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2625,17): warning :     float fTime, fScreenSizeFact;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2625,17): warning :                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2767,50): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2767,50): warning :        pRadar->user->m_AirAttackArea.dwGetTickCnt = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2767,50): warning :                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2774,10): warning : unused variable ‘bNoTime’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2774,10): warning :     UINT8 bNoTime = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2774,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,10): warning : variable ‘fDis’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,10): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,20): warning : variable ‘fHeight’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,20): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,20): warning :                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,33): warning : variable ‘fLength’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,33): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,33): warning :                                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,46): warning : variable ‘fStartPosX’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,46): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,46): warning :                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,62): warning : variable ‘fStartPosY’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,62): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,62): warning :                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,78): warning : variable ‘fStartPosZ’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,78): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,78): warning :                                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,94): warning : variable ‘fCrossBlockMaxFall’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,94): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,94): warning :                                                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,118): warning : variable ‘fCrossBlockMaxDis’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,118): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,118): warning :                                                                                                                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,173): warning : variable ‘fHitPointZ’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,173): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2777,173): warning :                                                                                                                                                                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2851,10): warning : unused variable ‘bNoTime’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2851,10): warning :     UINT8 bNoTime = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2851,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,10): warning : unused variable ‘fDis’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,10): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,20): warning : unused variable ‘fHeight’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,20): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,20): warning :                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,33): warning : unused variable ‘fLength’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,33): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,33): warning :                                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,46): warning : unused variable ‘fStartPosX’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,46): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,46): warning :                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,62): warning : unused variable ‘fStartPosY’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,62): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,62): warning :                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,78): warning : unused variable ‘fStartPosZ’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,78): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,78): warning :                                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,94): warning : unused variable ‘fCrossBlockMaxFall’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,94): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,94): warning :                                                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,118): warning : unused variable ‘fCrossBlockMaxDis’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,118): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,118): warning :                                                                                                                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,141): warning : unused variable ‘fHitPointX’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,141): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,141): warning :                                                                                                                                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,157): warning : unused variable ‘fHitPointY’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,157): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,157): warning :                                                                                                                                                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,173): warning : unused variable ‘fHitPointZ’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,173): warning :     float fDis = 0, fHeight = 0, fLength = 0, fStartPosX = 0, fStartPosY = 0, fStartPosZ = 0, fCrossBlockMaxFall = 0, fCrossBlockMaxDis = 0, fHitPointX = 0, fHitPointY = 0, fHitPointZ = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2854,173): warning :                                                                                                                                                                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2855,11): warning : unused variable ‘nCheckActor’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2855,11): warning :     UINT32 nCheckActor = 0, nMoveDir = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2855,11): warning :            ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2855,28): warning : unused variable ‘nMoveDir’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2855,28): warning :     UINT32 nCheckActor = 0, nMoveDir = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2855,28): warning :                             ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2856,9): warning : unused variable ‘szVaultKey’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2856,9): warning :     char szVaultKey[1024] = { 0 };
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2856,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2865,8): warning : unused variable ‘nStrLen’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2865,8): warning :     int nStrLen;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2865,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2867,8): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2867,8): warning :     int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2867,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2868,9): warning : variable ‘bVictimName’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2868,9): warning :     bool bVictimName = false, bKillerName = false;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2868,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2868,30): warning : unused variable ‘bKillerName’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2868,30): warning :     bool bVictimName = false, bKillerName = false;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(2868,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3068,10): warning : variable ‘arrayVal’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3068,10): warning :    UINT32 arrayVal[64];
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3068,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3123,14): warning : conversion to ‘BYTE {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3123,14): warning :     nReadBits = nInType - 60;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3123,14): warning :               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3089,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3089,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3089,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,9): warning : unused variable ‘bit2Val’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,9): warning :    UINT8 bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,22): warning : unused variable ‘type06Val’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,22): warning :    UINT8 bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,22): warning :                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,37): warning : unused variable ‘bit4Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,37): warning :    UINT8 bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,37): warning :                                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,52): warning : unused variable ‘bit5Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,52): warning :    UINT8 bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,52): warning :                                                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,67): warning : unused variable ‘bit1Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,67): warning :    UINT8 bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,67): warning :                                                                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,82): warning : unused variable ‘bit6Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,82): warning :    UINT8 bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3090,82): warning :                                                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3238,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3238,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3238,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3284,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3284,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3284,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3384,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3384,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3384,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3467,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3467,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3467,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3915,19): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3915,19): warning :       pActor->fYaw = (float)(m_type6Byte) * 360 / 256.0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3915,19): warning :                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3551,7): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3551,7): warning :    int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3551,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4015,14): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4015,14): warning :      fVelNorm = sqrt(fvVelocity.X * fvVelocity.X + fvVelocity.Y * fvVelocity.Y);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4015,14): warning :               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,9): warning : variable ‘bBit’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,9): warning :    UINT8 bBit, bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0, byteType2;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,43): warning : unused variable ‘bit4Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,43): warning :    UINT8 bBit, bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0, byteType2;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,43): warning :                                            ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,58): warning : unused variable ‘bit5Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,58): warning :    UINT8 bBit, bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0, byteType2;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,58): warning :                                                           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,73): warning : unused variable ‘bit1Type6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,73): warning :    UINT8 bBit, bit2Val = 0, type06Val = 0, bit4Type6 = 0, bit5Type6 = 0, bit1Type6 = 0, bit6Type6 = 0, byteType2;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3965,73): warning :                                                                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3966,40): warning : unused variable ‘nType9’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3966,40): warning :    UINT32 nObjProperty = 0, nType5 = 0, nType9;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3966,40): warning :                                         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,9): warning : unused variable ‘fType10X’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,9): warning :    float fType10X = 0, fType10Y = 0, fType10Z = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,23): warning : unused variable ‘fType10Y’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,23): warning :    float fType10X = 0, fType10Y = 0, fType10Z = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,23): warning :                        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,37): warning : unused variable ‘fType10Z’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,37): warning :    float fType10X = 0, fType10Y = 0, fType10Z = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3974,37): warning :                                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3975,8): warning : unused variable ‘szType19’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3975,8): warning :    char szType19[1024] = { 0 };
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3975,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,7): warning : unused variable ‘nStrRes’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,7): warning :    int nStrRes = 0, i = 0, nStrLen = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,20): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,20): warning :    int nStrRes = 0, i = 0, nStrLen = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,20): warning :                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,27): warning : unused variable ‘nStrLen’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,27): warning :    int nStrRes = 0, i = 0, nStrLen = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(3977,27): warning :                            ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4245,69): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4245,69): warning :       Radar->user->m_channel[m_nChannelNo].pActor->dwReceiveDataTime = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4245,69): warning :                                                                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4257,71): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4257,71): warning :       Radar->user->m_channel[m_nChannelNo].pVehicle->dwReceiveDataTime = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4257,71): warning :                                                                        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4320,26): warning : large integer implicitly truncated to unsigned type [-Woverflow]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4320,26): warning :         BYTE nActorType = 0x77777777;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4320,26): warning :                           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4127,8): warning : unused variable ‘bDoChecksum’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4375,11): warning : unused variable ‘IncomingStartPos’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4375,11): warning :      DWORD IncomingStartPos = Ar.GetPosBits();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4375,11): warning :            ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4357,10): warning : unused variable ‘StartPos’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4357,10): warning :     DWORD StartPos = Ar.GetPosBits();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4357,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4348,9): warning : variable ‘dwPacketID’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4348,9): warning :    DWORD dwPacketID;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\CBitReader.h(4348,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(622,7): warning : variable ‘circle’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(622,7): warning :   auto circle = container->user->m_CircleInfo;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(622,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(985,7): warning : variable ‘circle’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(985,7): warning :   auto circle = container->user->m_CircleInfo;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(985,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1099,6): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1099,6): warning :   int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1099,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1171,86): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1171,86): warning :      DWORD dwCurCnt = GetTickCountMs() - container->user->m_channel[i].pAirDropPlane->dwGetTickCnt;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1171,86): warning :                                                                                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1213,37): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1213,37): warning :    DWORD dwTickTemp = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1213,37): warning :                                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,83): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,83): warning :    if ((abs(container->user->m_myActor.fXPos - container->user->m_myActorTemp.fXPos) >= 10000) || (abs(container->user->m_myActor.fYPos - container->user->m_myActorTemp.fYPos) >= 10000) || (abs(container->user->m_myActor.fZPos - container->user->m_myActorTemp.fZPos) >= 10000))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,83): warning :                                                                                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,174): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,174): warning :    if ((abs(container->user->m_myActor.fXPos - container->user->m_myActorTemp.fXPos) >= 10000) || (abs(container->user->m_myActor.fYPos - container->user->m_myActorTemp.fYPos) >= 10000) || (abs(container->user->m_myActor.fZPos - container->user->m_myActorTemp.fZPos) >= 10000))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,174): warning :                                                                                                                                                                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,265): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,265): warning :    if ((abs(container->user->m_myActor.fXPos - container->user->m_myActorTemp.fXPos) >= 10000) || (abs(container->user->m_myActor.fYPos - container->user->m_myActorTemp.fYPos) >= 10000) || (abs(container->user->m_myActor.fZPos - container->user->m_myActorTemp.fZPos) >= 10000))
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1214,265): warning :                                                                                                                                                                                                                                                                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1216,10): warning : unused variable ‘fTickTemp’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1216,10): warning :     float fTickTemp = ((float)(GetTickCountMs() - container->user->m_myActor.dwReceiveDataTime)) / 1000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1216,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1229,10): warning : unused variable ‘fTickTemp’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1229,10): warning :     float fTickTemp = ((float)(GetTickCountMs() - container->user->m_myActor.dwReceiveDataTime)) / 1000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1229,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1285,1): warning : no return statement in function returning non-void [-Wreturn-type]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1285,1): warning :  }
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1285,1): warning :  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1299,5): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1299,5): warning :    n = recv(sock, buffer, sizeof buffer, 0);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1299,5): warning :      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1293,21): warning : unused variable ‘message’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1293,21): warning :   char buffer[2048], message[256];
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1293,21): warning :                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1294,6): warning : unused variable ‘index’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1294,6): warning :   int index;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1294,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1379,1): warning : no return statement in function returning non-void [-Wreturn-type]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1379,1): warning :  }
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1379,1): warning :  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1899,51): warning : conversion to ‘DWORD {aka unsigned int}’ from ‘uint64_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1899,51): warning :       container->user->m_myActor.dwReceiveDataTime = GetTickCountMs();
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1899,51): warning :                                                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2001,35): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2001,35): warning :       container->user->m_fMyDirYaw = (float)(nTemp) / (65535.0) * 360;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2001,35): warning :                                    ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1815,6): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1815,6): warning :   int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1815,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1820,11): warning : unused variable ‘FR’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1820,11): warning :   FROTATOR FR;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1820,11): warning :            ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1823,7): warning : unused variable ‘bLocationValid’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1823,7): warning :   BOOL bLocationValid = FALSE;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1823,7): warning :        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1825,9): warning : unused variable ‘nPosTemp2’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1825,9): warning :   UINT32 nPosTemp2 = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(1825,9): warning :          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2012,6): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2012,6): warning :   int i = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2012,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2013,6): warning : unused variable ‘j’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2013,6): warning :   int j = 0;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2013,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2118,69): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2118,69): warning :     *(DWORD *)a3 = ((*(BYTE *)(a1 + 1) << 16) | (*(BYTE *)a1 << 24)) ^ *(BYTE *)(a1 + 3) | (*(BYTE *)(a1 + 2) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2118,69): warning :                                                                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2119,81): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2119,81): warning :     *(DWORD *)(a3 + 4) = ((*(BYTE *)(a1 + 5) << 16) | (*(BYTE *)(a1 + 4) << 24)) ^ *(BYTE *)(a1 + 7) | (*(BYTE *)(a1 + 6) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2119,81): warning :                                                                                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2120,81): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2120,81): warning :     *(DWORD *)(a3 + 8) = ((*(BYTE *)(a1 + 9) << 16) | (*(BYTE *)(a1 + 8) << 24)) ^ *(BYTE *)(a1 + 11) | (*(BYTE *)(a1 + 10) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2120,81): warning :                                                                                  ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2121,84): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2121,84): warning :     *(DWORD *)(a3 + 12) = ((*(BYTE *)(a1 + 13) << 16) | (*(BYTE *)(a1 + 12) << 24)) ^ *(BYTE *)(a1 + 15) | (*(BYTE *)(a1 + 14) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2121,84): warning :                                                                                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,54): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,54): warning :       v10 = v8 ^ dword_30CE28[(unsigned char)v6 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v6 >> 24) + 266]) ^ dword_30CE28[((v6 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v6 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,54): warning :                                                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,146): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,146): warning :       v10 = v8 ^ dword_30CE28[(unsigned char)v6 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v6 >> 24) + 266]) ^ dword_30CE28[((v6 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v6 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,146): warning :                                                                                                                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,207): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,207): warning :       v10 = v8 ^ dword_30CE28[(unsigned char)v6 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v6 >> 24) + 266]) ^ dword_30CE28[((v6 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v6 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2132,207): warning :                                                                                                                                                                                                                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2147,103): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2147,103): warning :      *(DWORD *)(a3 + 16) = ((*(unsigned char *)(a1 + 17) << 16) | (*(unsigned char *)(a1 + 16) << 24)) ^ *(unsigned char *)(a1 + 19) | (*(unsigned char *)(a1 + 18) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2147,103): warning :                                                                                                        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2148,103): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2148,103): warning :      *(DWORD *)(a3 + 20) = ((*(unsigned char *)(a1 + 21) << 16) | (*(unsigned char *)(a1 + 20) << 24)) ^ *(unsigned char *)(a1 + 23) | (*(unsigned char *)(a1 + 22) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2148,103): warning :                                                                                                        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,57): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,57): warning :        v20 = v18 ^ dword_30CE28[(unsigned char)v16 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v16 >> 24) + 266]) ^ dword_30CE28[((v16 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v16 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,57): warning :                                                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,151): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,151): warning :        v20 = v18 ^ dword_30CE28[(unsigned char)v16 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v16 >> 24) + 266]) ^ dword_30CE28[((v16 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v16 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,151): warning :                                                                                                                                                        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,213): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,213): warning :        v20 = v18 ^ dword_30CE28[(unsigned char)v16 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v16 >> 24) + 266]) ^ dword_30CE28[((v16 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v16 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2159,213): warning :                                                                                                                                                                                                                      ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2180,104): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2180,104): warning :       *(DWORD *)(a3 + 24) = ((*(unsigned char *)(a1 + 25) << 16) | (*(unsigned char *)(a1 + 24) << 24)) ^ *(unsigned char *)(a1 + 27) | (*(unsigned char *)(a1 + 26) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2180,104): warning :                                                                                                         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2181,104): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2181,104): warning :       *(DWORD *)(a3 + 28) = ((*(unsigned char *)(a1 + 29) << 16) | (*(unsigned char *)(a1 + 28) << 24)) ^ *(unsigned char *)(a1 + 31) | (*(unsigned char *)(a1 + 30) << 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2181,104): warning :                                                                                                         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,58): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,58): warning :         v33 = v31 ^ dword_30CE28[(unsigned char)v29 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v29 >> 24) + 266]) ^ dword_30CE28[((v29 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v29 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,58): warning :                                                           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,152): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,152): warning :         v33 = v31 ^ dword_30CE28[(unsigned char)v29 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v29 >> 24) + 266]) ^ dword_30CE28[((v29 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v29 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,152): warning :                                                                                                                                                         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,214): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,214): warning :         v33 = v31 ^ dword_30CE28[(unsigned char)v29 + 10] & 0xFF00 ^ LOBYTE(dword_30CE28[(v29 >> 24) + 266]) ^ dword_30CE28[((v29 >> 16) & 0xFF) + 522] & 0xFF000000 ^ dword_30CE28[((unsigned short)v29 >> 8) + 778] & 0xFF0000;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2192,214): warning :                                                                                                                                                                                                                       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,68): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,68): warning :         v39 = *(DWORD *)(v3 - 16) ^ dword_30CE28[(v38 >> 24) + 522] & 0xFF000000 ^ LOBYTE(dword_30CE28[(unsigned char)v38 + 266]) ^ dword_30CE28[((v38 >> 16) & 0xFF) + 778] & 0xFF0000 ^ dword_30CE28[((unsigned short)v38 >> 8) + 10] & 0xFF00;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,68): warning :                                                                     ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,173): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,173): warning :         v39 = *(DWORD *)(v3 - 16) ^ dword_30CE28[(v38 >> 24) + 522] & 0xFF000000 ^ LOBYTE(dword_30CE28[(unsigned char)v38 + 266]) ^ dword_30CE28[((v38 >> 16) & 0xFF) + 778] & 0xFF0000 ^ dword_30CE28[((unsigned short)v38 >> 8) + 10] & 0xFF00;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,173): warning :                                                                                                                                                                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,232): warning : suggest parentheses around arithmetic in operand of ‘^’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,232): warning :         v39 = *(DWORD *)(v3 - 16) ^ dword_30CE28[(v38 >> 24) + 522] & 0xFF000000 ^ LOBYTE(dword_30CE28[(unsigned char)v38 + 266]) ^ dword_30CE28[((v38 >> 16) & 0xFF) + 778] & 0xFF0000 ^ dword_30CE28[((unsigned short)v38 >> 8) + 10] & 0xFF00;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2205,232): warning :                                                                                                                                                                                                                                         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2282,14): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2282,14): warning :    while (v15 < max)
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2282,14): warning :               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2237,15): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2237,15): warning :   unsigned int i = 0; // r3@2
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2237,15): warning :                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2303,8): warning : variable ‘v3’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2303,8): warning :   char* v3; // r6@1
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2303,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2304,6): warning : variable ‘v4’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2304,6): warning :   int v4; // r4@1
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2304,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2305,8): warning : variable ‘v5’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2305,8): warning :   char* v5; // r5@1
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2305,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2420,10): warning : variable ‘c’ set but not used [-Wunused-but-set-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2420,10): warning :       int c = 5;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2420,10): warning :           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2333,8): warning : unused variable ‘pAddr’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2333,8): warning :   char *pAddr = NULL;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2333,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2451,8): warning : conversion to ‘short int’ from ‘wint_t {aka unsigned int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2451,8): warning :     v43 = towupper(v41);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2451,8): warning :         ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2481,30): warning : conversion to ‘int’ from ‘int64_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2481,30): warning :    signed int p2 = ullTemp >> 32;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2481,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2488,15): warning : conversion to ‘char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2488,15): warning :    *(char*)v11 = R0 ^ (R0 >> 8) ^ (R0 >> 16) ^ (R0 >> 24);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2488,15): warning :                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2493,6): warning : conversion to ‘int’ from ‘int64_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2493,6): warning :    R5 = ((ullTemp >> 32) + (signed int)R1);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2493,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2498,15): warning : conversion to ‘char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2498,15): warning :    *(char*)v13 = R1 ^ (R1 >> 8) ^ (R1 >> 16) ^ (R1 >> 24);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2498,15): warning :                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2523,16): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2523,16): warning :     return v3 - a2;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2523,16): warning :                 ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2552,25): warning : cast from ‘uint64_t* {aka long unsigned int*}’ to ‘DWORD {aka unsigned int}’ loses precision [-fpermissive]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2552,25): warning :     *(DWORD*)((DWORD)(&v5) + 0) = -(signed int)v5;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2552,25): warning :                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2552,30): warning : cast to pointer from integer of different size [-Wint-to-pointer-cast]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2552,30): warning :     *(DWORD*)((DWORD)(&v5) + 0) = -(signed int)v5;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2552,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2553,25): warning : cast from ‘uint64_t* {aka long unsigned int*}’ to ‘DWORD {aka unsigned int}’ loses precision [-fpermissive]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2553,25): warning :     *(DWORD*)((DWORD)(&v5) + 4) -= 2 * HIDWORD(v5) + !v7;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2553,25): warning :                          ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2553,30): warning : cast to pointer from integer of different size [-Wint-to-pointer-cast]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2553,30): warning :     *(DWORD*)((DWORD)(&v5) + 4) -= 2 * HIDWORD(v5) + !v7;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2553,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2534,6): warning : unused variable ‘v6’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2534,6): warning :   int v6; // off@2
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2534,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2703,106): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2703,106): warning :   v4 = ((((*(unsigned char *)(a1 + 1) << 16) & 0x00FF0000) | ((*(unsigned char *)a1 << 24) & 0xFF000000)) ^ (*(unsigned char *)(a1 + 3) & 0x000000FF) | ((*(unsigned char *)(a1 + 2) << 8) & 0x0000FF00)) ^ *(DWORD *)a3;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2703,106): warning :                                                                                                           ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2704,112): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2704,112): warning :   v5 = ((((*(unsigned char *)(a1 + 5) << 16) & 0x00FF0000) | ((*(unsigned char *)(a1 + 4) << 24) & 0xFF000000)) ^ (*(unsigned char *)(a1 + 7) & 0x000000FF) | ((*(unsigned char *)(a1 + 6) << 8) & 0x0000FF00)) ^ *(DWORD *)(a3 + 4);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2704,112): warning :                                                                                                                 ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2705,112): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2705,112): warning :   v6 = ((((*(unsigned char *)(a1 + 9) << 16) & 0x00FF0000) | ((*(unsigned char *)(a1 + 8) << 24) & 0xFF000000)) ^ (*(unsigned char *)(a1 + 11) & 0x000000FF) | ((*(unsigned char *)(a1 + 10) << 8) & 0x0000FF00)) ^ *(DWORD *)(a3 + 8);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2705,112): warning :                                                                                                                 ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2706,114): warning : suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2706,114): warning :   v7 = ((((*(unsigned char *)(a1 + 13) << 16) & 0x00FF0000) | ((*(unsigned char *)(a1 + 12) << 24) & 0xFF000000)) ^ (*(unsigned char *)(a1 + 15) & 0x000000FF) | ((*(unsigned char *)(a1 + 14) << 8) & 0x0000FF00)) ^ *(DWORD *)(a3 + 12);
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2706,114): warning :                                                                                                                   ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2775,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2775,29): warning :   *(unsigned char *)(a2 + 3) = v54;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2775,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2776,23): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2776,23): warning :   *(unsigned char *)a2 = v54 >> 24;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2776,23): warning :                        ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2777,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2777,29): warning :   *(unsigned char *)(a2 + 1) = v54 >> 16;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2777,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2778,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2778,29): warning :   *(unsigned char *)(a2 + 2) = v54 >> 8;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2778,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2781,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2781,29): warning :   *(unsigned char *)(a2 + 7) = v55;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2781,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2782,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2782,29): warning :   *(unsigned char *)(a2 + 4) = v55 >> 24;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2782,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2783,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2783,29): warning :   *(unsigned char *)(a2 + 5) = v55 >> 16;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2783,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2784,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2784,29): warning :   *(unsigned char *)(a2 + 6) = v55 >> 8;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2784,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2786,30): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2786,30): warning :   *(unsigned char *)(a2 + 11) = v56;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2786,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2787,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2787,29): warning :   *(unsigned char *)(a2 + 8) = v56 >> 24;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2787,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2788,29): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2788,29): warning :   *(unsigned char *)(a2 + 9) = v56 >> 16;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2788,29): warning :                              ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2791,30): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2791,30): warning :   *(unsigned char *)(a2 + 10) = v57;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2791,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2793,30): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2793,30): warning :   *(unsigned char *)(a2 + 12) = v59 >> 24;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2793,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2794,30): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2794,30): warning :   *(unsigned char *)(a2 + 13) = v59 >> 16;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2794,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2795,30): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2795,30): warning :   *(unsigned char *)(a2 + 15) = v59;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2795,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2796,30): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2796,30): warning :   *(unsigned char *)(a2 + 14) = v59 >> 8;
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2796,30): warning :                               ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2809,6): warning : unused variable ‘v13’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2809,6): warning :   int v13; // r6@3
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2809,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2810,6): warning : unused variable ‘v14’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2810,6): warning :   int v14; // r11@3
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2810,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2811,6): warning : unused variable ‘v15’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2811,6): warning :   int v15; // r3@5
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2811,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2812,15): warning : unused variable ‘v16’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2812,15): warning :   unsigned int v16; // r0@8
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2812,15): warning :                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2813,15): warning : unused variable ‘v17’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2813,15): warning :   unsigned int v17; // r4@8
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2813,15): warning :                ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2814,6): warning : unused variable ‘v18’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2814,6): warning :   int v18; // r8@8
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2814,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2816,6): warning : unused variable ‘v20’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2816,6): warning :   int v20; // r3@9
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2816,6): warning :       ^
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2824,6): warning : unused variable ‘v28’ [-Wunused-variable]
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2824,6): warning :   int v28; // [sp+1Ch] [bp-2Ch]@1
+C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\LocalListener.cpp(2824,6): warning :       ^
+  Linking objects
+  PubGStreamer.vcxproj -> C:\Users\anvil\Desktop\PUBGSTREAMER\PubGStreamer\bin\x64\Debug\PubGStreamer.out
